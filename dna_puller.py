@@ -60,7 +60,7 @@ class DnaPuller:
               
      
     def ftp_cwd(self, species, type):
-        return '/pub/release-98/fasta/' + species + '/' + type + '/'
+        return '/pub/release-103/fasta/' + species + '/' + type + '/'
 
     def validate_name(self, name):
         for type in self.types:
